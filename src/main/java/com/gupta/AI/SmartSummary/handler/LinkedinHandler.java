@@ -27,7 +27,7 @@ public class LinkedinHandler {
             writer.write(System.lineSeparator());
             for (Topic topic : course.topics) {
                 if (topic.summary != null) {
-                    writer.write(topic.getTopicName());
+//                    writer.write(topic.getTopicName());
                     writer.write(System.lineSeparator());
                     writer.write(topic.getSummary());
                     writer.write(System.lineSeparator());
